@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header footer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact us</a></li>
+        </ul>
+    </div>
+
+    <div class="h">
+         <h1>Registration Form</h1>
+    </div>
+
+    <div class="form">
+        <table>
+            <div id="d1">
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" placeholder="first name" id="fname"></td>
+                </tr>
+            </div>
+            <div id="d2">
+                <tr>
+                    <td>Middle Name</td>
+                    <td><input type="text" placeholder="middle name" id="mname"></td>
+                </tr>
+            </div>
+            <div id="d3">
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" placeholder="last name" id="lname"></td>
+                </tr>
+            </div>
+            <div id="d4">
+                <tr>
+                    <td>Age</td>
+                    <td><input type="number" id="age"></td>
+                </tr>
+            </div>
+            <div id="d5">
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" placeholder="password must be 6 char" id="pass"></td>
+                </tr>
+            </div>
+            <div id="d6">
+                <tr>
+                    <td id="elig">You are Eligible</td>
+                </tr>
+            </div>
+        </table>
+    </div>
+    <div class="but">
+        <button name="verify Details" onclick="validate()">validate</button>
+    </div>
+    <div class="but">
+        <button type="submit" id="sub" onclick="submit()">Submit</button>
+    </div>
+    <div>
+        <footer>
+            <p id="pd">Test footer &copy; ITMUR</p>
+        </footer>
+    </div>
+</body>
+</html>
